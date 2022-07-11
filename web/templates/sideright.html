@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>right</title>
+  <script src="https://unpkg.com/feather-icons"></script>
+  <link rel="stylesheet" href="{{ url_for('static',filename='style.css') }}">
+
+<style>
+    input {
+        background-color: hsl(216, 18%, 30%);
+        color: #ffffff;
+        border: none; 
+        height: 20px;
+        width: 250px;
+        text-align: center;
+        margin-bottom: 10px;
+        border-radius: 10px;
+        outline: none;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 100;
+        color: #ffffff;
+        
+
+    }
+    button{
+        background-image: linear-gradient( 135deg, rgb(114, 237, 242) 10%, rgb(81, 81, 229) 100%);
+        border: none;
+        padding: 8px;
+        padding-left: 8px;
+        border-radius: 30px;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 700;
+        color: #ffffff;
+        -webkit-box-shadow: 0 0 30px -5px rgba(0, 0, 0, 0.25);
+	        box-shadow: 0 0 30px -5px rgba(0, 0, 0, 0.25);
+        cursor: pointer;
+        -webkit-transition: -webkit-transform 200ms ease;
+        transition: -webkit-transform 200ms ease;
+        -o-transition: transform 200ms ease;
+        transition: transform 200ms ease;
+        transition: transform 200ms ease, -webkit-transform 200ms ease;
+    }
+
+    button:hover {
+	-webkit-transform: scale(0.95);
+	    -ms-transform: scale(0.95);
+	        transform: scale(0.95);
+}
+
+</style>
+
+</head>
+<body>
+    <div class="container">
+        <div class="info-side">
+          <div class="today-info-container">
+            <div class="today-info">
+              <div class="precipitation"> <span class="title">DESC</span><span class="value">{{ desc }}</span>
+                <div class="clear"></div>
+              </div>
+              <div class="humidity"> <span class="title">HUMIDITY</span><span class="value">{{humid}} %</span>
+                <div class="clear"></div>
+              </div>
+              <div class="wind"> <span class="title">WIND</span><span class="value">{{wind}} km/h</span>
+                <div class="clear"></div>
+              </div>
+            </div>
+          </div>
+          <div class="week-container">
+            <ul class="week-list">
+              <li class="active"><i class="day-icon" data-feather="{{i1}}"></i><span class="day-name">{{d1}}</span><span class="day-temp">{{w1}}°C</span></li>
+              <li><i class="day-icon" data-feather="{{i2}}"></i><span class="day-name">{{d2}}</span><span class="day-temp">{{w2}}°C</span></li>
+              <li><i class="day-icon" data-feather="{{i3}}"></i><span class="day-name">{{d3}}</span><span class="day-temp">{{w3}}°C</span></li>
+              <li><i class="day-icon" data-feather="{{i4}}"></i><span class="day-name">{{d4}}</span><span class="day-temp">{{w4}}°C</span></li>
+              <div class="clear"></div>
+            </ul>
+          </div>
+          <center>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/prefixfree/1.0.7/prefixfree.min.js"></script>
+          <div class="location-container">
+            
+            <form action="{{ url_for("city")}}" method="post"">
+                <input type="text" value="{{ cpn }}" onClick="this.select();" name="city"/>
+            <br>
+                <button type="submit" >Change Location <i class="iconb" data-feather="map-pin" ></i></button>
+
+            </form>
+          </div>
+        </div>
+      </div>
+      </center>
+       
+    
+      <script  src="{{ url_for('static',filename='script.js') }}"></script>
+    
+</body>
+</html>

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>leftf</title>
+  <script src="https://unpkg.com/feather-icons"></script>
+  <link rel="stylesheet" href="{{ url_for('static',filename='style.css') }}">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<div class="container">
+  <div class="weather-side">
+    <div class="weather-gradient"></div>
+    <div class="date-container">
+      <h2 class="date-dayname">{{ day }}</h2><span class="date-day">{{ date }}</span><i class="location-icon" data-feather="map-pin"></i><span class="location">{{city}}</span>
+    </div>
+    <div class="weather-container"><i class="weather-icon" data-feather="{{ icon }}"></i>
+      <h1 class="weather-temp">{{ tempr }} °C</h1>
+      <h3 class="weather-desc">{{ main }}</h3>
+    </div>
+  </div>
+ 
+<!-- partial -->
+  <script  src="{{ url_for('static',filename='script.js') }}"></script>
+
+</body>
+</html>

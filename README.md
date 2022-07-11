@@ -1,13 +1,26 @@
 
+# Hi, I'm Rajyavardhan! 👋
+
+
 # Weather App
 
-Cross Plateform GUI Weather App Designed Using Python(PyQt5 and Flask)
+Cross Plateform GUI Weather App Designed Using Python(PyQt5 and Flask).
+
+I Fully Developed This Application in 15 Days 8 Hour
 
 
-<img src="ttps://raw.githubusercontent.com/Rage-Security/logo/main/rage1.png" width="48">
+
 ## Screenshots
 
 ![App Screenshot](https://i.ibb.co/QJVXnbf/Screenshot-2022-07-11-20-38-57.png")
+
+## Features
+
+- LightWeight
+- Morden GUI
+- Asthetic Look
+- New Update Every Month
+
 
 ## Installation
 
@@ -41,3 +54,44 @@ To deploy this project on Windows run
 ```bash
   python run.py
 ```
+
+## Preview
+#### On Hover
+
+![App Screenshot1](https://i.ibb.co/2k608Nk/Code-Pen-Simple-Weather-App-Desig.gif)
+
+![App Screenshot2](https://i.ibb.co/n69ZcG4/Screenshot-2022-07-11-21-43-16.png)
+## Used By
+
+This project is used by:
+
+- Rage-Security's https://github.com/Rage-Security
+
+
+## Roadmap 2022-*
+
+- Animated Icon
+
+- Add more Features
+
+
+## Contributing
+
+Contributions are always welcome!
+
+See `contributing.md` for ways to get started.
+
+Please adhere to this project's `code of conduct`.
+
+
+## 🚀 About Me
+I'm a full stack developer...
+
+
+## 🛠 Skills
+Python Frontend-Backend, HTML and CSS Frontend Only!!
+
+
+## Feedback
+
+If you have any feedback, please reach out to us at ragesec@protonmail.com

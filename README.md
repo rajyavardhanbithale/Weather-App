@@ -1,3 +1,43 @@
-# Weather-App
-Weather-App for MacOS/Linux/Windows
-<div style="position: relative; padding-bottom: 56.25%; height: 0;"><iframe src="https://www.loom.com/embed/895bbebdaa134b1bb22f43c8827162cb" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
+
+# Weather App
+
+Cross Plateform GUI Weather App Designed Using Python(PyQt5 and Flask)
+
+
+<img src="ttps://raw.githubusercontent.com/Rage-Security/logo/main/rage1.png" width="48">
+## Screenshots
+
+![App Screenshot](https://i.ibb.co/QJVXnbf/Screenshot-2022-07-11-20-38-57.png")
+
+## Installation
+
+Install required packages for linux
+
+
+```bash
+  sudo apt install python3-pyqt5 python3-pyqt5.qtwebengine 
+  python3-pyqt5.qtwebkit python3-pyqt5.qtquick python3-pyqt5.qtopengl 
+  python3-pyqt5.qtwebchannel python3-pyqt5.qwt python3-flask 
+  python3-flask-testing
+
+```
+Install required packages for Windows
+
+
+```bash
+  pip install
+```
+    
+## Deployment
+
+To deploy this project on Linux run
+
+```bash
+  python3 run.py
+```
+
+To deploy this project on Windows run
+
+```bash
+  python run.py
+```

@@ -29,16 +29,15 @@ Install required packages for linux
 
 ```bash
   sudo apt install python3-pyqt5 python3-pyqt5.qtwebengine 
-  python3-pyqt5.qtwebkit python3-pyqt5.qtquick python3-pyqt5.qtopengl 
-  python3-pyqt5.qtwebchannel python3-pyqt5.qwt python3-flask 
-  python3-flask-testing
-
+  python3-pyqt5.qtwebkit python3-pyqt5.qtquick python3-pyqt5.qtwebchannel  
+  python3-flask 
 ```
 Install required packages for Windows
 
 
 ```bash
-  pip install
+  pip install PyQt5 flask requests PyQtWebEngine
+
 ```
     
 ## Deployment
@@ -58,9 +57,13 @@ To deploy this project on Windows run
 ## Preview
 #### On Hover
 
-![App Screenshot1](https://i.ibb.co/qy7rhnz/hover.gif)
+![App Screenshot1](https://i.ibb.co/XbDMKhv/hover2.gif)
 
+#### On Linux
 ![App Screenshot2](https://i.ibb.co/n69ZcG4/Screenshot-2022-07-11-21-43-16.png)
+
+#### On Windows
+![App Screenshot3](https://i.ibb.co/L0tgJwN/Screenshot-3.png)
 ## Used By
 
 This project is used by:

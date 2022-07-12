@@ -58,7 +58,7 @@ To deploy this project on Windows run
 ## Preview
 #### On Hover
 
-![App Screenshot1](https://i.ibb.co/2k608Nk/Code-Pen-Simple-Weather-App-Desig.gif)
+![App Screenshot1](https://i.ibb.co/qy7rhnz/hover.gif)
 
 ![App Screenshot2](https://i.ibb.co/n69ZcG4/Screenshot-2022-07-11-21-43-16.png)
 ## Used By

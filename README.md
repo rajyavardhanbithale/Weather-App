@@ -21,6 +21,8 @@ I Fully Developed This Application in 15 Days 8 Hour
 - Asthetic Look
 - New Update Every Month
 
+#### Linux Production/Live Release
+#### Currently In Development Stage for Windows
 
 ## Installation
 

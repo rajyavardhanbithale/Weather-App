@@ -28,6 +28,8 @@ I Fully Developed This Application in 15 Days 8 Hour
 
 Install required packages for linux
 
+[Click Here To Download](https://github.com/rajyavardhanbithale/Weather-App/releases/download/v2/rage-weather-app-linux-live.zip "Download From Here")
+
 ```bash
   sudo apt install python3-pyqt5 python3-pyqt5.qtwebengine 
   python3-pyqt5.qtwebkit python3-pyqt5.qtquick python3-pyqt5.qtwebchannel  
@@ -35,12 +37,13 @@ Install required packages for linux
 ```
 Install required packages for Windows
 
+[Click Here To Download](https://github.com/rajyavardhanbithale/Weather-App/releases/download/v2-pre/rage-weather-app-windows.pre-alpha.zip "Download From Here")
 
 ```bash
   pip install PyQt5 flask requests PyQtWebEngine
 
 ```
-    
+
 # Deployment
 #### Make Sure That You Connected To Internet
 To deploy this project on Linux run

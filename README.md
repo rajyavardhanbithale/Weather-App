@@ -28,7 +28,6 @@ I Fully Developed This Application in 15 Days 8 Hour
 
 Install required packages for linux
 
-
 ```bash
   sudo apt install python3-pyqt5 python3-pyqt5.qtwebengine 
   python3-pyqt5.qtwebkit python3-pyqt5.qtquick python3-pyqt5.qtwebchannel  
@@ -42,8 +41,8 @@ Install required packages for Windows
 
 ```
     
-## Deployment
-
+# Deployment
+#### Make Sure That You Connected To Internet
 To deploy this project on Linux run
 
 ```bash

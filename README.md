@@ -12,9 +12,8 @@ I Fully Developed This Application in 15 Days 8 Hour
 
 ## Screenshots
 <center>
-<img src="images/image1.png"  width="50%" height="80%" />
+<img src="images/image1.png"  width="70%" height="100%" />
 </center>
-![App Screenshot](images/image1.png width=100)
 
 ## Features
 
@@ -30,16 +29,16 @@ I Fully Developed This Application in 15 Days 8 Hour
 
 Install required packages for linux
 
-[Click Here To Download](https://github.com/rajyavardhanbithale/Weather-App/releases/download/v2/rage-weather-app-linux-live.zip "Download From Here")
+[Download](https://github.com/rajyavardhanbithale/Weather-App/releases/download/v2/rage-weather-app-linux-live.zip "Download From Here")
 
 ```bash
   sudo apt install python3-pyqt5 python3-pyqt5.qtwebengine 
   python3-pyqt5.qtwebkit python3-pyqt5.qtquick python3-pyqt5.qtwebchannel  
-  python3-flask 
+  python3-flask python3-requests
 ```
 Install required packages for Windows
 
-[Click Here To Download](https://github.com/rajyavardhanbithale/Weather-App/releases/download/v2-pre/rage-weather-app-windows.pre-alpha.zip "Download From Here")
+[Download](https://github.com/rajyavardhanbithale/Weather-App/releases/download/v2-pre/rage-weather-app-windows.pre-alpha.zip "Download From Here")
 
 ```bash
   pip install PyQt5 flask requests PyQtWebEngine
@@ -70,35 +69,6 @@ To deploy this project on Windows run
 
 #### On Windows
 ![App Screenshot3](https://i.ibb.co/L0tgJwN/Screenshot-3.png)
-## Used By
-
-This project is used by:
-
-- Rage-Security's https://github.com/Rage-Security
-
-
-## Roadmap 2022-*
-
-- Animated Icon
-
-- Add more Features
-
-
-## Contributing
-
-Contributions are always welcome!
-
-See `contributing.md` for ways to get started.
-
-Please adhere to this project's `code of conduct`.
-
-
-## 🚀 About Me
-I'm a full stack developer...
-
-
-## 🛠 Skills
-Python Frontend-Backend, HTML and CSS Frontend Only!!
 
 
 ## Feedback

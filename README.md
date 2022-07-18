@@ -12,7 +12,7 @@ I Fully Developed This Application in 15 Days 8 Hour
 
 ## Screenshots
 
-![App Screenshot](https://i.ibb.co/QJVXnbf/Screenshot-2022-07-11-20-38-57.png")
+![App Screenshot](images/image1.png)
 
 ## Features
 

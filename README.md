@@ -11,8 +11,10 @@ I Fully Developed This Application in 15 Days 8 Hour
 
 
 ## Screenshots
-
-![App Screenshot](images/image1.png)
+<center>
+<img src="images/image1.png"  width="50%" height="80%" />
+</center>
+![App Screenshot](images/image1.png width=100)
 
 ## Features
 

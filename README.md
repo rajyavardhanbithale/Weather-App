@@ -6,10 +6,6 @@
 
 Cross Plateform GUI Weather App Designed Using Python(PyQt5 and Flask).
 
-I Fully Developed This Application in 15 Days 8 Hour
-
-
-
 ## Screenshots
 <center>
 <img src="images/image1.png"  width="70%" height="100%" />

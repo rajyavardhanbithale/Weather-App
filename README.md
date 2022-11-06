@@ -16,7 +16,7 @@ Cross Plateform GUI Weather App Designed Using Python(PyQt5 and Flask).
 - LightWeight
 - Morden GUI
 - Asthetic Look
-- New Update Every Month
+- New Update Every Month (Sorry For The Delay)
 
 #### Linux Production/Live Release
 #### Currently In Development Stage for Windows

@@ -69,4 +69,4 @@ To deploy this project on Windows run
 
 ## Feedback
 
-If you have any feedback, please reach out to us at ragesec@protonmail.com
+If you have any feedback, please reach out to us at ragesec@protonmail.com.

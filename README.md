@@ -4,7 +4,7 @@
 
 # Weather App
 
-Cross Plateform GUI Weather App Designed Using Python(PyQt5 and Flask).
+Cross Platform  GUI Weather App Designed Using Python(PyQt5 and Flask).
 
 ## Screenshots
 <center>
